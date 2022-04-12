@@ -1,0 +1,15 @@
+--------extrair_faces--------
+
+Este arquivo contém um detector de faces. Para que a detecção seja realizada sem erros e alterações do código as imagens devem está no caminho imagens\cropped_faces a partir do diretório desse arquivo. Além disso, ele separa as imagens em conjuntos de dados e treinamento e o nome das imagens devem seguir o padrão Sxx_yy.
+
+xx é um valor numérico que representa o indivíduo.
+01 representa o individuo 1
+yy é um valor numérico que representa o número da imagem do indivíduo xx.
+
+-----algoritmo_treina_classificador---------
+
+Treina e salva um classificador
+
+------Detecta_classifica------
+
+Utilizado classificador salvo por algoritmo_treina_classificador para detectar e classificar faces pela webcan
